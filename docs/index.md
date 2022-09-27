@@ -5,7 +5,7 @@
 layout: home
 ---
 
-Muninn is a library and a set of command-line tools to create and manage
+Leo's Muninn is a library and a set of command-line tools to create and manage
 data product catalogues and archives. [More information](about)
 
 # User documentation:
