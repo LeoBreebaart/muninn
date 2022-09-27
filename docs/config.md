@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Configuration
+parent: index
 permalink: /config/
 ---
 

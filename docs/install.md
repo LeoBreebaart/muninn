@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Installation
+parent: index
 permalink: /install/
 ---
 

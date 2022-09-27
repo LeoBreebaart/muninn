@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Expression Language
+parent: index
 permalink: /expr/
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Links
+parent: index
 permalink: /links/
 ---
 

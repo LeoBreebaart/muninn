@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Data Types
+parent: index
 permalink: /datatypes/
 ---
 

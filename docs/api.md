@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Python API
+parent: index
 permalink: /api/
 ---
 
@@ -32,7 +33,7 @@ Opens archive for given archive id, by searching using the
 **Arguments**:
 
 - `id` - Archive id (name of configuration file)
-  
+
 
 **Returns**:
 
@@ -265,7 +266,7 @@ The existing metadata record is found by performing a search based on product_ty
   root directory of the archive).
   This option is ignored if ingest_product=False.
 - `force` - If set to True, then skip default size check between product and existing metadata.
-  
+
 
 **Returns**:
 
@@ -341,7 +342,7 @@ will _not_ trigger any of the specific cascade rules.
 
 - `where` - Search expression or one or more product uuid(s) or properties.
 - `parameters` - Parameters referenced in the search expression (if any).
-  
+
 
 **Returns**:
 
@@ -407,7 +408,7 @@ retrieve one or more derived products and bundle them together with the product 
 - `parameters` - Parameters referenced in the search expression (if any).
 - `target_path` - Directory in which the retrieved products will be stored.
 - `format` - Format in which the products will be exported.
-  
+
 
 **Returns**:
 
@@ -446,7 +447,7 @@ multi-part product).
 **Arguments**:
 
 - `paths` - List of paths pointing to product files.
-  
+
 
 **Returns**:
 
@@ -494,7 +495,7 @@ try to copy/symlink it.
   will be removed before ingestion, including partially ingested products.
   NB. Depending on product type specific cascade rules, removing a product can result in one
   or more derived products being removed (or stripped) along with it.
-  
+
 
 **Returns**:
 
@@ -573,7 +574,7 @@ archive (i.e. the archive_path core metadata field should not be set).
   the hash from the metadata (only if the metadata contained a hash).
 - `verify_hash_download` - If set to True then, before the product is stored in the archive, the pulled
   product will be matched against the metadata hash (if it exists).
-  
+
 
 **Returns**:
 
@@ -655,7 +656,7 @@ Retrieve one or more products from the archive.
 - `use_symlinks` - If set to True, products will be retrieved as symbolic links to the original products kept
   in the archive. If set to False, products will retrieved as copies of the original products.
   By default, products will be retrieved as copies.
-  
+
 
 **Returns**:
 
@@ -713,7 +714,7 @@ Search the product catalogue for products matching the specified search expressi
   Properties are specified as '<namespace>.<identifier>'
   (the namespace can be omitted for the 'core' namespace).
   If the property_names parameter is provided then the namespaces parameter is ignored.
-  
+
 
 **Returns**:
 
@@ -752,7 +753,7 @@ products being stripped (or removed) along with it.
   failure occured during ingestion, as well as products in the process of being ingested. Use
   this option with care.
 - `cascade` - Apply cascade rules to strip/purge dependent products.
-  
+
 
 **Returns**:
 
@@ -787,7 +788,7 @@ Return a summary of the products matching the specified search expression.
 - `order_by` - A list of result column names that determines the ordering of the results. If the list is
   empty, the order of the results is ordered by the `group_by` specification. Each name in the
   list can have a '+' (ascending) or '-' (descending) prefix, or no prefix (ascending).
-  
+
   Note that the property names must always include the namespace. 'core' is not assumed.
 
 <a name="muninn.archive.Archive.tag"></a>
@@ -887,7 +888,7 @@ error will be raised.
 
 - `where` - Search expression or one or more product uuid(s) or properties.
 - `parameters` - Parameters referenced in the search expression (if any).
-  
+
 
 **Returns**:
 

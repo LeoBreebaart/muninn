@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Usage
+parent: index
 permalink: /usage/
 ---
 

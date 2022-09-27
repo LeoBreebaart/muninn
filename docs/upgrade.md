@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Upgrading
+parent: index
 permalink: /upgrade/
 ---
 

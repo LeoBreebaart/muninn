@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Namespaces
+parent: index
 permalink: /namespaces/
 ---
 

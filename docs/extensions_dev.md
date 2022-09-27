@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Extensions
+parent: index
 permalink: /extensions_dev/
 ---
 
