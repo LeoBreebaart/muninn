@@ -2,6 +2,7 @@
 layout: page
 title: Installation
 parent: index
+nav_order: 1
 permalink: /install/
 ---
 

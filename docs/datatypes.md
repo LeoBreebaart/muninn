@@ -2,6 +2,7 @@
 layout: page
 title: Data Types
 parent: index
+nav_order: 8
 permalink: /datatypes/
 ---
 

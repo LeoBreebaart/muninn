@@ -2,6 +2,7 @@
 layout: page
 title: Namespaces
 parent: index
+nav_order: 6
 permalink: /namespaces/
 ---
 

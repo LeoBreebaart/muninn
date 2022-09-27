@@ -2,6 +2,7 @@
 layout: page
 title: Configuration
 parent: index
+nav_order: 4
 permalink: /config/
 ---
 

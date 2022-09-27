@@ -2,6 +2,7 @@
 layout: page
 title: Extensions
 parent: index
+nav_order: 10
 permalink: /extensions_dev/
 ---
 

@@ -2,6 +2,7 @@
 layout: page
 title: Links
 parent: index
+nav_order: 7
 permalink: /links/
 ---
 

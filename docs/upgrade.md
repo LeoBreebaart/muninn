@@ -2,6 +2,7 @@
 layout: page
 title: Upgrading
 parent: index
+nav_order: 2
 permalink: /upgrade/
 ---
 

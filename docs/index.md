@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+has_children: true
 ---
 
 Leo's Muninn is a library and a set of command-line tools to create and manage
